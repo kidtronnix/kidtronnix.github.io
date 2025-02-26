@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I&rsquo;m super excited to be speaking at BSides Seattle 2025.\nRestless Guests From Subscription to Backdoor Intruder Discover a critical vulnerability in Azure&rsquo;s guest user model that enables attackers to create and control subscriptions in external tenants—without explicit privileges. This overlooked capability lets adversaries expand access, move laterally, and plant stealthy backdoors in Entra directories. With confirmed real-world attacks exploiting this gap, our first-of-its-kind research reveals how attackers leverage these pathways, why this undermines Azure&rsquo;s security assumptions, and what organizations must do to protect themselves before Microsoft&rsquo;s fixes arrive.\n">
-<title>Upcoming Talk! BSides Seattle 2025</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations. I documented the exact attack paths threat actors can use, as well as defenses to prevent attacks.\nTo see the full article head over to BeyondTrust&rsquo;s blog:\nhttps://www.beyondtrust.com/blog/entry/entra-id-app-escalations.\nEnjoy the read!\n">
+<title>Entra ID App Escalations</title>
 
-<link rel='canonical' href='http://localhost:1313/post/bsides-seattle-2025/'>
+<link rel='canonical' href='http://localhost:1313/post/entra-id-app-escalations/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Upcoming Talk! BSides Seattle 2025">
-<meta property='og:description' content="I&rsquo;m super excited to be speaking at BSides Seattle 2025.\nRestless Guests From Subscription to Backdoor Intruder Discover a critical vulnerability in Azure&rsquo;s guest user model that enables attackers to create and control subscriptions in external tenants—without explicit privileges. This overlooked capability lets adversaries expand access, move laterally, and plant stealthy backdoors in Entra directories. With confirmed real-world attacks exploiting this gap, our first-of-its-kind research reveals how attackers leverage these pathways, why this undermines Azure&rsquo;s security assumptions, and what organizations must do to protect themselves before Microsoft&rsquo;s fixes arrive.\n">
-<meta property='og:url' content='http://localhost:1313/post/bsides-seattle-2025/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Entra ID App Escalations">
+<meta property='og:description' content="I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations. I documented the exact attack paths threat actors can use, as well as defenses to prevent attacks.\nTo see the full article head over to BeyondTrust&rsquo;s blog:\nhttps://www.beyondtrust.com/blog/entry/entra-id-app-escalations.\nEnjoy the read!\n">
+<meta property='og:url' content='http://localhost:1313/post/entra-id-app-escalations/'>
 <meta property='og:site_name' content='Simon Maxwell-Stewart'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='BSides' /><meta property='article:tag' content='Azure' /><meta property='article:tag' content='Seattle' /><meta property='article:published_time' content='2025-02-26T11:07:33-08:00'/><meta property='article:modified_time' content='2025-02-26T11:07:33-08:00'/>
-<meta name="twitter:title" content="Upcoming Talk! BSides Seattle 2025">
-<meta name="twitter:description" content="I&rsquo;m super excited to be speaking at BSides Seattle 2025.\nRestless Guests From Subscription to Backdoor Intruder Discover a critical vulnerability in Azure&rsquo;s guest user model that enables attackers to create and control subscriptions in external tenants—without explicit privileges. This overlooked capability lets adversaries expand access, move laterally, and plant stealthy backdoors in Entra directories. With confirmed real-world attacks exploiting this gap, our first-of-its-kind research reveals how attackers leverage these pathways, why this undermines Azure&rsquo;s security assumptions, and what organizations must do to protect themselves before Microsoft&rsquo;s fixes arrive.\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='EntraID' /><meta property='article:tag' content='Azure' /><meta property='article:published_time' content='2025-02-26T11:07:33-08:00'/><meta property='article:modified_time' content='2025-02-26T11:07:33-08:00'/>
+<meta name="twitter:title" content="Entra ID App Escalations">
+<meta name="twitter:description" content="I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations. I documented the exact attack paths threat actors can use, as well as defenses to prevent attacks.\nTo see the full article head over to BeyondTrust&rsquo;s blog:\nhttps://www.beyondtrust.com/blog/entry/entra-id-app-escalations.\nEnjoy the read!\n">
     </head>
     <body class="
     article-page
@@ -183,43 +183,7 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">Table of contents</h2>
-        
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ul>
-    <li><a href="#restless-guests">Restless Guests</a>
-      <ul>
-        <li><a href="#from-subscription-to-backdoor-intruder">From Subscription to Backdoor Intruder</a></li>
-      </ul>
-    </li>
-    <li><a href="#details">Details</a></li>
-  </ul>
-</nav>
-        </div>
-    </section>
-
-            
-        
-    </aside>
-
+    
 
             <main class="main full-width">
     <article class="main-article">
@@ -229,8 +193,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/conference-talk/" >
-                Conference Talk
+            <a href="/categories/research/" >
+                Research
             </a>
         
     </header>
@@ -238,7 +202,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/bsides-seattle-2025/">Upcoming Talk! BSides Seattle 2025</a>
+            <a href="/post/entra-id-app-escalations/">Entra ID App Escalations</a>
         </h2>
     
         
@@ -275,7 +239,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    1 minute read
                 </time>
             </div>
         
@@ -290,26 +254,12 @@
     <section class="article-content">
     
     
-    <p>I&rsquo;m super excited to be speaking at <a class="link" href="https://www.bsidesseattle.com/"  target="_blank" rel="noopener"
-    >BSides Seattle 2025</a>.</p>
-<p><img src="/img/bsides-seattle-2025.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="session details"
-	
-	
-></p>
-<h2 id="restless-guests">Restless Guests
-</h2><h3 id="from-subscription-to-backdoor-intruder">From Subscription to Backdoor Intruder
-</h3><blockquote>
-<p>Discover a critical vulnerability in Azure&rsquo;s guest user model that enables attackers to create and control subscriptions in external tenants—without explicit privileges. This overlooked capability lets adversaries expand access, move laterally, and plant stealthy backdoors in Entra directories. With confirmed real-world attacks exploiting this gap, our first-of-its-kind research reveals how attackers leverage these pathways, why this undermines Azure&rsquo;s security assumptions, and what organizations must do to protect themselves before Microsoft&rsquo;s fixes arrive.</p></blockquote>
-<h2 id="details">Details
-</h2><blockquote>
-<p>Through novel research our team uncovered a critical vulnerability in Azure&rsquo;s guest user model, revealing that guest users can create and own subscriptions in external tenants they&rsquo;ve joined—even without explicit privileges. This capability, which is often overlooked by Azure administrators, allows attackers to exploit these subscriptions to expand their access, move laterally within resource tenants, and create stealthy backdoor identities in the Entra directory. Alarmingly, Microsoft has confirmed real-world attacks using this method, highlighting a significant gap in many Azure threat models. This talk will share the findings from this first of its kind research into this exploit found in the wild.</p>
-<p>We&rsquo;ll dive into how subscriptions, intended to act as security boundaries, make it possible for any guest to create and control a subscription undermines this premise. We&rsquo;ll provide examples of attackers leveraging this pathway to exploit known attack vectors to escalate privileges and establish persistent access, a threat most Azure admins do not anticipate when inviting guest users. While Microsoft plans to introduce preventative options in the future, this gap leaves organizations exposed to risks they may not even realize exist––but should definitely know about!</p></blockquote>
+    <p>I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations.
+I documented the exact attack paths threat actors can use, as well as defenses to prevent attacks.</p>
+<p>To see the full article head over to BeyondTrust&rsquo;s blog:</p>
+<p><a class="link" href="https://www.beyondtrust.com/blog/entry/entra-id-app-escalations"  target="_blank" rel="noopener"
+    >https://www.beyondtrust.com/blog/entry/entra-id-app-escalations</a>.</p>
+<p>Enjoy the read!</p>
 
 </section>
 
@@ -318,11 +268,9 @@
     
     <section class="article-tags">
         
-            <a href="/tags/bsides/">BSides</a>
+            <a href="/tags/entraid/">EntraID</a>
         
             <a href="/tags/azure/">Azure</a>
-        
-            <a href="/tags/seattle/">Seattle</a>
         
     </section>
 
@@ -341,6 +289,19 @@
     <h2 class="section-title">Related content</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/bsides-seattle-2025/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Upcoming Talk! BSides Seattle 2025</h2>
+        </div>
+    </a>
+</article>
+
             
                 
 <article class="">
@@ -363,19 +324,6 @@
 
         <div class="article-details">
             <h2 class="article-title">Upcoming Talk! BSides SLC 2025</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/entra-id-app-escalations/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Entra ID App Escalations</h2>
         </div>
     </a>
 </article>

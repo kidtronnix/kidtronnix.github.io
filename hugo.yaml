@@ -43,3 +43,9 @@ menu:
           params:
               icon: brand-github
 
+        - identifier: twitter
+          name: Twitter
+          url: https://x.com/btphantomlabs
+          params:
+              icon: brand-twitter
+
