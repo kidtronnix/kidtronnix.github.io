@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Simon Maxwell-Stewart</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on Simon Maxwell-Stewart</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://localhost:1313/page/about/</link>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/about/</guid>
+        <description>&lt;p&gt;Simon Maxwell-Stewart is a seasoned reseracher, data engineer and scientist with over a decade of experience in big data environments and a passion for pushing the boundaries of analytics. A Physics graduate from the University of Oxford, Simon began his career tackling complex data challenges and has since built a track record of delivering impactful data solutions across diverse industries.&lt;/p&gt;
+&lt;p&gt;Prior to joining BeyondTrust, Simon served as a Lead Data Scientist in the healthcare sector, where he successfully brought several machine learning projects into production, transforming research insights into actionable tools. Currently, he leverages his expertise as the resident &amp;ldquo;graph nerd&amp;rdquo; in BeyondTrust&amp;rsquo;s Security Research team, exploring cutting-edge graph-based techniques to enhance network security and drive innovative approaches to threat detection.&lt;/p&gt;
+&lt;p&gt;Simon’s unique combination of technical depth and creative problem-solving has made him a key contributor to advancements in data science and security.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Talks</title>
+        <link>http://localhost:1313/page/talks/</link>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/talks/</guid>
+        <description>&lt;p&gt;For a full &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/categories/conference-talk/&#34; &gt;list of talks&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
