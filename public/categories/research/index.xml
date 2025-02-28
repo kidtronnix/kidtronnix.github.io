@@ -14,8 +14,10 @@
         <guid>http://localhost:1313/post/entra-id-app-escalations/</guid>
         <description>&lt;p&gt;I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations.
 I documented the exact attack paths threat actors can use, as well as defenses to prevent attacks.&lt;/p&gt;
+&lt;p&gt;To see the full article head over to BeyondTrust&amp;rsquo;s blog:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.beyondtrust.com/blog/entry/entra-id-app-escalations&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.beyondtrust.com/blog/entry/entra-id-app-escalations&lt;/a&gt;&lt;/p&gt;
+    &gt;https://www.beyondtrust.com/blog/entry/entra-id-app-escalations&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy the read!&lt;/p&gt;
 </description>
         </item>
         

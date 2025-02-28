@@ -14,7 +14,7 @@ tags:
 
 I'm super excited to be speaking at [BSides Dublin 2025](https://www.bsidesdub.ie/).
 
-![session details](/img/bsides-seattle-2025.png)
+![session details](/img/bsides-dublin-2025.png)
 
 ## Restless Guests
 
