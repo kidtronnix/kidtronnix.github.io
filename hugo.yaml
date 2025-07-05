@@ -12,7 +12,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
     sidebar:
         # emoji: 🍥
-        subtitle: Blogging adventures in cybersecurity and other side quests. Researcher @ Phantom Labs.
+        subtitle: Blogging adventures in cybersecurity and other side quests. @kidtronnix 
         avatar:
             enabled: true
             local: true
@@ -45,7 +45,7 @@ menu:
 
         - identifier: twitter
           name: Twitter
-          url: https://x.com/btphantomlabs
+          url: https://x.com/kidtronnix
           params:
               icon: brand-twitter
 
