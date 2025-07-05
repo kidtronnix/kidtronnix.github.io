@@ -11,4 +11,12 @@ menu:
             icon: date
 ---
 
-For a full [list of talks](/categories/conference-talk/).
+Here are links to slides and videos of my past talks:
+
+| Event Name                    | Date       | Slides                        | Video                                 |
+| ------------------------------|------------|-------------------------------|---------------------------------------|
+| Bsides SLC                    | 2025-04-11 | None                          | (video)[https://youtu.be/ietRMyixf1c] |
+| Bsides Seattle                | 2025-04-18 | None                          | (Video)[https://youtu.be/z9ulqpQvhkg] |
+| Bsides Dublin                 | 2025-05-23 | None                          | None                                  |
+| OWASP Barcelona               | 2025-05-30 | None                          | None                                  |
+| Troopers 25                   | 2025-06-26 | (slides)[/pdf/TROOPERS25.pdf] | None                                  |
