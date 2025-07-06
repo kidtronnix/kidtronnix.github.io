@@ -9,6 +9,8 @@ tags:
     - BSides
     - Azure
     - Seattle
+
+image: https://upload.wikimedia.org/wikipedia/commons/3/30/Building92microsoft.jpg
 ---
 
 I'm super excited to be speaking at [BSides Seattle 2025](https://www.bsidesseattle.com/).

@@ -8,6 +8,8 @@ categories:
 tags:
     - EntraID
     - Azure
+
+image: https://assets.beyondtrust.com/assets/images/blog/Screenshot-2024-10-25-at-9.07.48-AM-1-1.png?auto=format&fit=clip&lossless=1
 ---
 
 I recently wrote a blog for BeyondTrust, explaining some known Entra ID app escalations.

@@ -8,6 +8,7 @@ tags:
     - BSides
     - Azure
     - Barcelona
+image: https://upload.wikimedia.org/wikipedia/commons/7/74/Sagrada_Familia_March_2015-10a.jpg
 ---
 
 

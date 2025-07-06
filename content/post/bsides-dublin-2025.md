@@ -9,6 +9,8 @@ tags:
     - BSides
     - Azure
     - Dublin
+
+image: https://upload.wikimedia.org/wikipedia/commons/6/60/Trinity_Business_School_bilingual_sign%2C_Pearse_Street_Dublin_%282024%29.jpg
 ---
 
 
