@@ -12,7 +12,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
     sidebar:
         # emoji: 🍥
-        subtitle: "Adventures in cyberspace and other side quests. @kidtronnix"
+        subtitle: "Adventures in cyberspace. @kidtronnix"
         avatar:
             enabled: true
             local: true
