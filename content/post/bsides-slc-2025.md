@@ -10,7 +10,7 @@ tags:
     - Azure
     - Salt Lake City
 
-image = "https://upload.wikimedia.org/wikipedia/commons/1/1e/Salt_Lake_City_-_July_16%2C_2011.jpg"
+image = "slc.jpg"
 ---
 
 I'm super excited to be speaking at [BSides SLC 2025](https://www.bsidesslc.org/).
