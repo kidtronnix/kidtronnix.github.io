@@ -1,7 +1,7 @@
 ---
 date: '2025-02-26T11:07:33-08:00'
 draft: false
-title: 'Upcoming Talk! BSides Seattle 2025'
+title: 'BSides Seattle 2025'
 
 categories:
     - Conference Talk

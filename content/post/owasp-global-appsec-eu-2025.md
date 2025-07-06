@@ -1,7 +1,7 @@
 ---
 date: '2025-02-26T11:07:55-08:00'
 draft: false
-title: 'Upcoming Talk! OWASP Global Appsec EU 2025'
+title: 'OWASP Global Appsec EU 2025'
 categories:
     - Conference Talk
 tags:

@@ -1,7 +1,7 @@
 ---
 date: '2025-02-26T11:07:55-08:00'
 draft: false
-title: Upcoming Talk! BSides Dublin 2025
+title: BSides Dublin 2025
 
 categories:
     - Conference Talk

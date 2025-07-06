@@ -1,7 +1,7 @@
 ---
 date: '2025-02-26T11:06:57-08:00'
 draft: false
-title: 'Upcoming Talk! BSides SLC 2025'
+title: 'BSides SLC 2025'
 
 categories:
     - Conference Talk
