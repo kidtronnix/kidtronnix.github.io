@@ -10,7 +10,7 @@ tags:
     - Azure
     - Salt Lake City
 
-image = "slc.jpg"
+image: slc.jpg
 ---
 
 I'm super excited to be speaking at [BSides SLC 2025](https://www.bsidesslc.org/).
